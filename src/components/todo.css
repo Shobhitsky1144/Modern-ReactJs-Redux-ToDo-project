@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+}
+.addItems input{
+    height: 2rem;
+    width: 17rem;
+    outline: none;
+    background-color: whitesmoke;
+ }
+ .eachItems{
+     border: 2px solid;
+     background-color: navy;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 17rem;
+     height: 2.5rem;
+     color: white;
+     margin: 1rem 0;
+
+ }
+ button{
+     background-color: navy;
+     outline: none;
+     color: white;
+     width: 8rem;
+     height: 3rem;
+    
+ }
+ h3,i{
+     background-color: navy;
+ }
+

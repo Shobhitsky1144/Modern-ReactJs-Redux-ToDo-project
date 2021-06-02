@@ -1,10 +1,7 @@
-import changeTheNumber from './upDown';
-import multTheNumber from './mulDiv';
+import todoReducers from './todoReducers';
 import {combineReducers} from 'redux';
 
 const rootReducers=combineReducers({
-    changeTheNumber,
-    multTheNumber
-
+    todoReducers
 })
 export default rootReducers;

@@ -1,24 +1,24 @@
-export const incNumber=(num)=>{
+export const addTodo=(data)=>{
     return{
-        type:"INCREMENT",
-        payload:num
+        type:"ADD_TODO",
+        payload:{
+            id:new Date().getTime.toString(),
+            data:data
+        }
+
+    }
+}
+export const deleteTodo=(id)=>{
+    return{
+        type:"DELETE_TODO",
+        id
+
     }
 }
 
-export const decNumber=()=>{
+export const removeTodo=()=>{
     return{
-        type:"DECREMENT"
-    }
-}
-export const multNumber=(num)=>{
-    return{
-        type:"MULT",
-        payload:num
-    }
-}
+        type:"REMOVE_TODO",
 
-export const divNumber=()=>{
-    return{
-        type:"DIVIDE"
     }
 }
